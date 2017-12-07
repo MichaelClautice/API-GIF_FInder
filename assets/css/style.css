@@ -1,0 +1,85 @@
+/* this is Michael Clautice's Giphy API Site V6 */
+
+#row_topTitle {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#row_instructions {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#mainContent  {
+
+    background-color: DarkTurquoise;
+}
+
+#row_submitForm {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#row_giffButtons {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#row_imageResults {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#middle_column {
+
+    min-height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#gif-form-parent {
+    background-color: aquamarine;
+    min-width: 200px;
+
+}
+
+/*#mainContent {
+    display: flex;
+
+}*/
+
+/* this is Michael Clautice's Giphy API Site V6 */
+
+body{
+ background-color: pink;
+}
+* {
+    box-sizing: border-box;
+}
+
+#gifsView {
+    border-color: red;
+    border-width: 10px;
+    background-color: cyan;
+
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+.btn {
+    /* adding spacing between each button*/
+    margin: 3px;
+    background-color: #999999;
+    border-color: #fff;
+}
+/* this is the Learning Resource Copy for Giphy API Site */
+.gifDiv{
+    /* making the images go in one line rather than block & adding spacing between the images*/
+    float: left;
+    margin: 3px;
+}
+/* this is Michael Clautice's Giphy API Site V6 */
+
+

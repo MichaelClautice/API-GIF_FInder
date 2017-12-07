@@ -1,0 +1,103 @@
+<!--  this is Michael Clautice's Giphy API Site V6 -->
+<!DOCTYPE html>
+<html>
+   <!-- •••••••••••••••••••••••••••••••••••••••••••••• -->
+   <!-- "HOUSEKEEPING" BOILERPLATE CODE IN THE HEAD ELEMENT -->
+    <head>
+    <!-- Specify the character encoding for the HTML document: -->
+    <!-- UTF-8 - Character encoding for Unicode: -->
+    <meta charset="utf-8">
+    <!-- browser tab title -->
+    <title>Mike's Giphy API Site V6</title>
+    <!-- viewport etc -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- LINK TO RESET.CSS (same as normalize.css) -->
+    <!-- REMEMBER!: the link to reset.css needs to be ABOVE the other links - so it can run first
+    The CSS Reset code defines baseline styles for HTML elements.
+
+    Resetting these styles to one base evens out the differences, meaning fewer cross-browser issues when designing a website.
+    -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- LINK TO BOOTSTRAP CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <!-- LINK TO GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <!-- LINK TO JQUERY CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- LINK TO MY EXTERNAL CSS FILE -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+   <!-- •••••••••••••••••••••••••••••••••••••••••••••• -->
+
+<!--  this is Michael Clautice's Giphy API Site V6 -->
+   <body>
+
+<!-- here's the main container for all 3 rows -->
+      <div style="background-color:red;" class="container text-center">
+
+<!-- start top row for title -->
+         <div id="row_topTitle" class="row" style="background-color:yellow;">
+
+<!-- start one single limegreen col -->
+            <div class="col-md-10 col-md-offset-1 text-center" id="middle_column" style="background-color:limegreen;">
+
+                  <h1>This is Michael Clautice's Giphy API Site V6</h1>
+                  <h1>Topic: Human Emotions!!</h1>
+            </div>
+<!--  close one single limegreen col -->
+         </div>
+<!-- close top row for title -->
+
+<!-- start middle row for instructions -->
+         <div id="row_instructions" class="row" style="background-color:yellow;">
+
+<!-- start one single limegreen col -->
+            <div class="col-md-10 col-md-offset-1 text-center" id="middle_column" style="background-color:limegreen;">
+
+<h3>• Click on a gif button to view 10 giffs of that emotion.</h3>
+<h3>• Click on an individual gif to toggle from static to animated and click again to return to static.</h3>
+
+<h3>• Add a gif button to the collection via the Emotion Submission Form.</h3>
+
+            </div>
+<!--  close one single limegreen col -->
+         </div>
+<!-- close middle row for instructions -->
+
+<!-- start bottom row for Giff Buttons, Giff Results & Submission Form -->
+         <div id="mainContent" class="row" style="background-color:yellow;">
+
+<!-- start middle row for Giff Buttons, Giff Results & Submission Form -->
+            <div class="col-md-10 col-md-offset-1 text-center" id="middle_column">
+
+<!-- here is where we are displaying the GIPHY buttons -->
+            <div id="gifButtonsView" class="col-md-10 col-md-offset-1 text-center" style="background-color:limegreen;">
+            </div>
+<!-- emotion Submission Form  -->
+        <div id="gif-form-parent", class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <form id="gif-form" role="form">
+                <h2><legend>Emotion <br> Submission Form</legend></h2>
+                <div class="form-group">
+                    <label for="emotion-input">Add your emotion below</label>
+                    <input type="text" id="emotion-input">
+                </div>
+                <input id="addGifButton" type="submit" value="Add your emotion" class="btn btn-primary">
+                <input id="removeGifButton" type="submit" value="Remove last emotion" class="btn btn-primary">
+            </form>
+        </div>
+<!-- Giff Results -->
+        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+            <!-- Gifs  -->
+            <div id="gifsView"></div>
+        </div>
+            </div>
+         </div>
+<!-- close bottom row for Giff Buttons, Giff Results & Submission Form -->
+      </div><!-- close the main container for all 3 rows -->
+<!--  this is Michael Clautice's Giphy API Site V6 -->
+      <!-- ALL JAVASCRIPT AT THE BOTTOM OF THE PAGE FOR FASTER PAGE LOADING  -->
+      <script type="text/javascript" src="assets/javascript/app.js"></script>
+   </body>
+</html>
+<!--  this is Michael Clautice's Giphy API Site V6
