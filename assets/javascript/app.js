@@ -90,7 +90,7 @@ function displayGifs(){
 // define a var to hold the submitted emotion √√
     var emotion = $(this).attr("data-name");
 // define a var to hold the API Key & request √√
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + emotion + "&api_key=dc6zaTOxFJmzC&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + emotion + "&api_key=dc6zaTOxFJmzC&limit=10";
 // displays the constructed url √√
     console.log(queryURL);
 // the AJAX function √√
