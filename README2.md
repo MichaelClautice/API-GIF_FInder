@@ -8,7 +8,7 @@
 
 • Add a gif button to the collection via the Emotion Submission Form.
 
-• Please checkout out the deployed app here!
+• Please checkout out the deployed app here - https://michaelclautice.github.io/API-GIF_FInder/
 
 ## Screenshots
 
