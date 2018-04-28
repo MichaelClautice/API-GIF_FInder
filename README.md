@@ -1,4 +1,4 @@
-# GifTastic
+# API-GIF_FInder
 
 ### Overview
 
