@@ -14,7 +14,7 @@
 
 ![Image of Yaktocat]
 
-https://octodex.github.com/images/yaktocat.png
+(https://github.com/MichaelClautice/API-GIF_FInder/blob/master/screenshots/API-GIFF_Finder.png)
 
 ## Dummy Text
 
