@@ -1,6 +1,6 @@
 ## This is the API-GIF_Finder
 
-Topic: Human Emotions!!
+• Topic: Human Emotions!!
 
 • Click on a gif button to view 10 giffs of that emotion.
 
