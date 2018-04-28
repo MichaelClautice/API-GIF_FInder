@@ -1,6 +1,10 @@
-## Synopsis
+## API-GIF_Finder
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+This is Michael Clautice's Giphy API Site V6
+Topic: Human Emotions!!
+• Click on a gif button to view 10 giffs of that emotion.
+• Click on an individual gif to toggle from static to animated and click again to return to static.
+• Add a gif button to the collection via the Emotion Submission Form.
 
 ## Code Example
 
