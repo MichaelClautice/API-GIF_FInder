@@ -12,9 +12,7 @@
 
 ## Screenshots
 
-![Image of Yaktocat]
-
-(https://github.com/MichaelClautice/API-GIF_FInder/blob/master/screenshots/API-GIFF_Finder.png)
+![screenshot](https://github.com/MichaelClautice/API-GIF_FInder/blob/master/screenshots/API-GIFF_Finder.png)
 
 ## Dummy Text
 
