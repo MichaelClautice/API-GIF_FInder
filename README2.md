@@ -8,6 +8,8 @@ Topic: Human Emotions!!
 
 • Add a gif button to the collection via the Emotion Submission Form.
 
+• Please checkout out the deployed app here!
+
 ## Screenshots
 
 image here
